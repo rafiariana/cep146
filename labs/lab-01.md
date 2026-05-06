@@ -12,64 +12,18 @@
    **Linux Users:** Open terminal and run `lscpu`, `lshw`, or `inxi -F`
 
 2. **Find and record the following:**
-   - Processor (CPU) brand, model, and number of cores
-   - Total RAM amount and type (DDR4/DDR5)
-   - Storage device type (HDD/SSD) and capacity
-   - Operating System version
+   - Processor (CPU) brand, model, and number of cores: Processor	12th Gen Intel(R) Core(TM) i7-1255U, 2600 Mhz, 10 Core(s), 12 Logical Processor(s)
+   - Total RAM amount and type (DDR4/DDR5): Installed Physical Memory (RAM)	16.0 GB, 35 = LPDDR5
+   - Storage device type (HDD/SSD) and capacity: Size	475.07 GB (510,107,189,760 bytes), SSD
+   - Operating System version: Version	10.0.22631 Build 22631
 
 3. **Analysis Questions:**
-   - Based on your CPU cores, how many tasks can your processor theoretically handle simultaneously?
-   - Is your storage primarily HDD or SSD? What are the performance implications?
-   - How does your RAM amount compare to typical requirements for modern applications?
+   - Based on your CPU cores, how many tasks can your processor theoretically handle simultaneously? My processor has 12 logical processors, so it can theoretically handle 12 tasks at the same time. This improves multitasking and helps programs run more smoothly together.
+   - Is your storage primarily HDD or SSD? What are the performance implications? My computer uses an SSD. SSDs are faster than HDDs, so my system boots faster, applications open quicker, and files transfer more efficiently.
+   - How does your RAM amount compare to typical requirements for modern applications? My 16 GB of LPDDR5 RAM is suitable for modern applications. It is enough for multitasking, online learning, streaming, office work, and even some heavier programs like editing software and light gaming.
 
 ### Deliverable:
 Complete a simple system specification sheet and answer the analysis questions.
-
----
-
-(Optional)
-
-## Exercise 2: Operating System Feature Hunt (15-20 minutes)
-**Format:** Solo or pairs  
-**Objective:** Students will explore and identify key OS functions on their own devices.
-
-### Mission:
-Find real examples of the five key OS functions running on your computer right now.
-
-### Tasks:
-
-1. **Process Management:**
-   - Open Task Manager (Windows), Activity Monitor (Mac), or System Monitor (Linux)
-   - Identify 5 currently running processes
-   - Find one process using the most CPU
-
-2. **Memory Management:**
-   - Check total RAM usage
-   - Find which application is using the most memory
-   - Identify available free memory
-
-3. **File System Management:**
-   - Navigate to your Documents folder
-   - Create a new folder called "OS_Lab_Test"
-   - Check the folder's properties/info to see creation date
-
-4. **Device Management:**
-   - Access Device Manager (Windows) or System Report (Mac)
-   - Identify 3 different types of hardware devices listed
-   - Find one device driver that's currently installed
-
-5. **Security Features:**
-   - Check if Windows Defender/antivirus is running
-   - Verify if automatic updates are enabled
-   - Look for any recent security scans
-
-### Challenge Questions:
-- Which process is using the most resources and why might that be?
-- What would happen if your OS didn't manage memory automatically?
-- How does your OS protect you from security threats?
-
-### Deliverable:
-Complete a checklist of found features and answer the challenge questions.
 
 ---
 ## Lab Rubric
@@ -78,7 +32,6 @@ Complete a checklist of found features and answer the challenge questions.
 
 ## Requirements for Completion:
 * **Exercise 1 (Required):** Complete system specification sheet with all hardware components identified AND answer all three analysis questions with thoughtful responses
-* **Exercise 2 (Optional):** If attempted, complete feature checklist for all 5 OS functions AND answer challenge questions
 
 ## Lab Rubric:
 
