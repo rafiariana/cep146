@@ -12,10 +12,10 @@
    **Linux Users:** Open terminal and run `lscpu`, `lshw`, or `inxi -F`
 
 2. **Find and record the following:**
-   - Processor (CPU) brand, model, and number of cores
-   - Total RAM amount and type (DDR4/DDR5)
-   - Storage device type (HDD/SSD) and capacity
-   - Operating System version
+   - Processor (CPU) brand, model, and number of cores: Processor	12th Gen Intel(R) Core(TM) i7-1255U, 2600 Mhz, 10 Core(s), 12 Logical Processor(s)
+   - Total RAM amount and type (DDR4/DDR5): Installed Physical Memory (RAM)	16.0 GB, 35 = LPDDR5
+   - Storage device type (HDD/SSD) and capacity: Size	475.07 GB (510,107,189,760 bytes), SSD
+   - Operating System version: Version	10.0.22631 Build 22631
 
 3. **Analysis Questions:**
    - Based on your CPU cores, how many tasks can your processor theoretically handle simultaneously?
